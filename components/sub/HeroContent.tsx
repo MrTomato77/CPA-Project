@@ -48,7 +48,7 @@ const HeroContent = () => {
         >
           Looking to build a computer but not sure where to start? <br />
           With our chatbot, you can easily choose the right components for your needs, 
-          whether you're a gamer, a creative professional, or just looking for a basic computer. <br />
+          whether you&apos;re a gamer, a creative professional, or just looking for a basic computer. <br />
           Get started today and build the perfect computer for you!
         </motion.p>
         <motion.a
