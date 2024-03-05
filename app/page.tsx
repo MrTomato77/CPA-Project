@@ -1,6 +1,15 @@
 import Hero from "@/components/main/Hero";
 import Script from 'next/script'
 
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'df-messenger': any;
+    }
+  }
+}
+
 export default function Home() {
   return (
     <main className="h-full w-full">
