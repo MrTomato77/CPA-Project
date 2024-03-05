@@ -1,11 +1,12 @@
 import Hero from "@/components/main/Hero";
+import Script from 'next/script'
 
 export default function Home() {
   return (
     <main className="h-full w-full">
       <div className="flex flex-col gap-20">
         <Hero />
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <Script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></Script>
         <df-messenger
           intent="WELCOME"
           chat-title="ComputerPartsAssistants"
